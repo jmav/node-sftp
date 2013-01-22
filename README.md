@@ -2,6 +2,8 @@
 
 Example of writing a simple file to sftp location:
 
+	```javascript
+	var sftp = require('node-sftp');
 	var sftp = new sftp({
 			host: 'hostname',
 			home: "/home/user/test",
@@ -22,6 +24,6 @@ Example of writing a simple file to sftp location:
 				console.log("It's saved!");
 			});
 	});
-
+	```
 
 More info soon...
