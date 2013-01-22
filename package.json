@@ -16,17 +16,17 @@
         "node": ">=0.4.x"
     },
     "dependencies": {
-        "asyncjs": "~0.0.6",
+        "asyncjs": "~0.0.9",
         "pty.js": "~0.1.2"
     },
-    
+
     "main": "./lib/sftp.js",
-    
+
     "scripts": {
         "test": "node test/sftp.js && node test/ssh.js"
     },
     "licenses": [{
         "type": "The MIT License",
         "url": "http://www.opensource.org/licenses/mit-license.php"}
-    ]    
+    ]
 }
